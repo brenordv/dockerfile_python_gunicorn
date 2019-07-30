@@ -29,7 +29,7 @@ ARG qty_workers=3
 ENV workers=${qty_workers}
 
 # App file
-ARG app_file_name="web_isn_batch_add_processo"
+ARG app_file_name="main"
 ENV app_file=${app_file_name}
 
 # Variable name

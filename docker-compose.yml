@@ -1,0 +1,6 @@
+version: '3'
+services:
+  flask-app:
+    image: pyimage:latest
+    ports:
+      - "5042:20042"
